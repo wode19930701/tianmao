@@ -1,0 +1,504 @@
+body,ul,h2,h3,h1,p,li,a,dd{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    font-size:12px;
+    font-weight:normal;
+    text-decoration: none;
+}
+a{
+    color: #888888;
+}
+
+.zuishang{
+    width:100%;
+    height:60px;
+    background: #c00004;
+    position: fixed;
+    top:-60px;
+}
+.zuishang1{
+    margin-left:100px;
+    margin-top: 14px;
+    float:left;
+}
+.zuishang2{
+    float: left;
+}
+.zuishang2 div{float: left;}
+
+.zuishang21{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.zuishang22{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.zuishang1 div input{
+    width: 600px;
+}
+.daoqita{
+    width: 50px;
+    height: 30px;
+    background:red;
+    position: fixed;
+    display: none;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav {
+    width: 100%;
+    height: 36px;
+    background: #dd2727;
+}
+
+.zong3 div{
+    margin-right: 32px;
+    line-height: 35px;
+    float: left;
+
+}
+.zong3 div a{
+    font-size: 16px;
+    color: white;
+}
+.zong{
+    width: 1230px;
+    height: 36px;
+    margin:0 auto;
+}
+.zong div a{
+    font-size: 12px;
+}
+.nav1{
+    width:200px;
+    background:#c40000;
+    overflow:hidden;
+}
+.nav11{
+    margin-left: 40px;
+}
+
+
+
+ .head2211{
+    height: 30px;
+    width: 86px;
+    background: #c40000;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.head221{
+    height: 30px;
+    width: 886px;
+    background: #c40000;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.head221 div{
+    float: left;
+}
+.head2211{
+    float: left;
+}
+.head222{
+    line-height: 25px;
+}
+.head222 a,.head222 div{
+    float: left;
+    font-size: 14px;
+}
+.head222 a,.head222 div{
+    float: left;
+    font-size:14px;
+}
+.head1{
+    height: 32px;;
+    width:100%;
+    background: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+}
+.head1 .zong a{
+    margin-right: 21px;
+    float: left;
+}
+.head1 .zong span{
+    margin-right: 21px;
+    float: left;
+    color:#888888;
+}
+.head1 a:hover{
+    color:#c40000;
+}
+.head12 div{
+    float: left;
+}
+.head12 .head127 a, .head12 .head128 a {
+    margin-right: 0px;
+    height: 20px;
+    padding-left: 10px;
+}
+.head1 a:hover{
+    color: #c40000;
+}
+.head126{
+    width: 60px;;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+.head122 img{height: 15px;
+    margin-top: 8px;
+    margin-right: 2px;
+}
+.head123 img{
+    height: 15px;
+    margin-top: 7px;
+    margin-right: 2px;
+}
+.head124 img{
+    height: 13px;
+    margin-top: 9px;
+    margin-right: 2px;
+}
+.head125 img{
+    height: 13px;
+    margin-top: 9px;
+    margin-right: 2px;
+}
+.head1 .head12 {
+    float: right;
+    width: 680px;
+    position: relative;
+}
+.head12 .head127{
+    width: 90px;
+    height: 50px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    background: white;
+    top:32px;
+    left: 20px;
+    display: none;
+}
+ .head128 {
+    width: 90px;
+    height: 50px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    background: white;
+    top: 32px;
+    left: 300px;
+    display: none;
+}
+.zong a,.zong .head12 .head126{
+    padding-top: 10px;
+}
+.zong span{
+    padding-top: 10px;
+}
+.head2{
+    display: block;
+    height: 130px;
+    width: 100%;
+}
+.head21{
+    width: 440px;
+    height: 130px;
+}
+.head21 img{
+    height: 130px;;
+    margin-left: -30px;
+}
+.head22{
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+}
+.head22 .head221{
+    width: 500px;
+}
+.head22 .head222{
+    height: 30px;
+}
+.zong2 div{
+    float: left;
+}
+.head221 input{
+    width: 398px;
+    height: 30px;
+    border: 2px solid #c40000;
+    padding-left: 10px;
+}
+.hongzi{
+    width:60px;
+}
+.head222 a,.head222 div{
+    float: left;
+    font-size: 14px;
+}
+.head222 .head2221{
+    margin: 0 6px;
+}
+.head222 .hongzi a{
+    color: #c40000;
+}
+
+.you {
+    height: 700px;
+    width: 36px;
+    background: black;
+    position: fixed;
+    right: 0px;
+    color: white;
+    z-index: 100000;
+}
+.you .zuo{
+    width: 100px;
+    height:34px;
+    background: #555555;
+    position:absolute;
+    right:76px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0;
+}
+.you .san{
+    /*margin-top:5px;*/
+    margin-right: -5px;
+    display: inline;
+    float: right;
+    color: #555;
+    font-size: 16px;
+}
+.you .zuo1{
+    top:34px;
+}
+.you .zuo2{
+    top: 185px;
+}
+.you .zuo3{
+    top: 225px;
+}
+.you .zuo4{
+    top:265px;
+}
+.you .zuo5{
+    top: 305px;
+}
+.you .zuo6{
+    top: 345px;
+}
+.you .zuo7{
+    top: 480px;
+}
+.you .zuo8{
+    top: 520px;
+}
+.you .zuo9{
+    top: 560px;
+}
+.you .you11:hover{
+    background: #c40000;
+}
+.you .you8{
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+.you .you2{
+    height: 100px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-top:10px;
+}
+.you .you1{
+    margin-top:33px;
+    width:36px;
+    height: 36px;;
+}
+.you .you2 div{
+    width: 20px;
+    margin-left: 11px;
+}
+.you .you3{
+    margin-top: 15px;
+}
+.you .you4{
+    margin-top:5px;
+}
+.you .you5{
+    margin-top:5px;
+}
+.you .you6{
+    margin-top:5px;
+}
+.you .you7{
+    margin-top:5px;
+}
+.you .you10{
+    margin-top:5px;
+}
+.you .you9{
+    margin-top:5px;
+}
+
+#zuoxia{
+    width:15px;
+    height: 0px;
+    position:fixed;
+    bottom: 0px;;
+    left:999px;
+    margin-left:-667px;
+    text-align: center;
+    line-height: 13px;
+}
+#zuoxia div{
+    width: 34px;
+    height: 30px;;
+    background: #aaaaaa;
+    padding-top: 4px;
+    margin-bottom:1px;
+    color: white;
+}
+#zuoxia .banner1:hover{
+    background: #666666;
+}
+#zuoxia .banner2:hover{
+    background: green;
+}
+
+#zuoxia .banner3:hover{
+    background: blue;
+}
+
+#zuoxia .banner4:hover{
+    background: #ddd;
+}
+
+#zuoxia .banner5:hover{
+    background: gold;
+}
+
+#zuoxia .banner6:hover{
+    background: indigo;
+}
+
+#zuoxia .banner7:hover{
+    background: pink;
+}
+
+#zuoxia .banner8:hover{
+    background: white;
+}
+
+#zuoxia .banner9:hover{
+    background: black;
+}
+
+#zuoxia .banner10:hover{
+    background: #ccc;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+}
+.banner .bannerzuo{
+    width: 200px;
+    height: 500px;
+    background: #eeeeee;
+    float: left;
+}
+.banner .zong4{
+    position: relative;
+}
+.banner .bannerzuo1 div{
+    height: 500px;
+    width: 500px;
+    background: #ccc;
+    display: none;
+    position: absolute;
+    top:0;
+    left: 200px;
+    z-index:9999;
+
+}
+.bannerzuo a{
+    margin-left: 40px;
+    color: black;
+    font-size: 14px;
+}
+.bannerzuo a:hover{
+    font-weight: bold;
+}
+.bannerzuo div{
+    /*margin-bottom:15px;*/
+    height: 31.25px;
+    line-height: 31.25px;
+}
+.banner .bannerzhong{
+    float: left;
+    width: 1030px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .bom div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: #ccc;
+    float: left;
+    margin-right: 8px;
+}
+
+.banner{
+    background: #e8e8e8;
+}
+.banner .bannerzhong .tu{
+    position: absolute;
+}
+.banner .bannerzhong div.bom{
+    position: absolute;
+    bottom: 10px;
+    left: 350px;
+    width: 198px;
+    height: 30px;
+    z-index: 2;
+}
+.shen1{
+    height: 361px;
+}
+.shen .shen11{
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 25px;
+    color: #fc0343;
+    font-weight: bold;
+}
+.shen12 div{
+    float: left;
+}
