@@ -1,21 +1,13 @@
 $(function(){
 
 
-			// 楼层跳转
-			var colors=["#666","green","blue","#ddd","gold","indigo","pink","white","black","#ccc"]
-			for (var i = 0; i < $("#zuoxia>div").length; i++) {
-				$("#zuoxia>div").eq(i).attr("index",i)
-				$("#zuoxia>div").eq(i).on("click",function(){
-					var top=$(".lou").eq($(this).attr("index"))[0].offsetTop-60
-					$(obj).animate({scrollTop:top},200)
-				})
-			};
 			var obj
 			document.documentElement.scrollTop=1
 			if(document.documentElement.scrollTop==1){
 				obj=document.documentElement
 			}
 			else(obj=document.body)
+	        obj.scrollTop=1;
 			var flag=true
 			var flag2=true
 			window.onscroll=function(){
@@ -82,7 +74,7 @@ $(function(){
 				$(".xia").eq(num).css("background","#fff")
 			}
 			$(".bannerzhong").hover(function(){
-				clearInterval(t)
+				clearInterval( )
 			},function(){
 				t=setInterval(lunbo,2000)
 			})
